@@ -1,6 +1,6 @@
 # larql-study — Research Bundle
 
-A read-only audit of [LARQL](https://github.com/) — a Rust system that decompiles transformer LLM weights into a queryable mmap directory called a *vindex* and exposes **LQL** (Lazarus Query Language), an SQL-shaped surface for browsing, editing, patching, and recompiling the model's knowledge.
+A read-only audit of [LARQL](hhttps://github.com/MushroomFleet/larql) — a Rust system that decompiles transformer LLM weights into a queryable mmap directory called a *vindex* and exposes **LQL** (Lazarus Query Language), an SQL-shaped surface for browsing, editing, patching, and recompiling the model's knowledge.
 
 This bundle is the output of a documentation-and-code-review exercise against the `larql/` reference checkout. The source code was **not modified**. All behavioural claims either quote the project's own documentation or follow directly from reading its code and specs.
 
@@ -45,7 +45,7 @@ This bundle is documentation about a third-party Apache-2.0 project. The artifac
 
 - **Audit date:** 2026-04-18.
 - **Platform:** win32, bash shell, Windows 11.
-- **Paths:** all absolute paths in artifacts reference `https://github.com/MushroomFleet/larql` (the audit target). Substitute your own checkout path when reproducing.
+- **Paths:** all absolute paths in artifacts reference `[https://github.com/MushroomFleet/larql](https://github.com/MushroomFleet/larql` (the audit target). Substitute your own checkout path when reproducing.
 - **Authoring tool:** Claude Code (claude-opus-4-7, 1M context) — documentation and code-review pass only; no tool execution, no agents modifying the `larql/` tree.
 
 ## A single-line summary to paste elsewhere
