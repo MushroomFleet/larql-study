@@ -45,9 +45,30 @@ This bundle is documentation about a third-party Apache-2.0 project. The artifac
 
 - **Audit date:** 2026-04-18.
 - **Platform:** win32, bash shell, Windows 11.
-- **Paths:** all absolute paths in artifacts reference `C:/Users/Genuine/Documents/_PROJECTS/larQL/larql/` (the audit target). Substitute your own checkout path when reproducing.
+- **Paths:** all absolute paths in artifacts reference `https://github.com/MushroomFleet/larql` (the audit target). Substitute your own checkout path when reproducing.
 - **Authoring tool:** Claude Code (claude-opus-4-7, 1M context) — documentation and code-review pass only; no tool execution, no agents modifying the `larql/` tree.
 
 ## A single-line summary to paste elsewhere
+
+## 📚 Citation
+
+### Academic Citation
+
+If you use this codebase in your research or project, please cite:
+
+```bibtex
+@software{larql-study,
+  title = {larql study: Lazarus Query Language Study},
+  author = {[Drift Johnson]},
+  year = {2025},
+  url = {https://github.com/MushroomFleet/larql-study},
+  version = {1.0.0}
+}
+```
+
+### Donate:
+
+
+[![Ko-Fi](https://cdn.ko-fi.com/cdn/kofi3.png?v=3)](https://ko-fi.com/driftjohnson)
 
 > **LARQL treats an LLM's FFN as a mmap'd graph database and exposes an SQL-shaped language (LQL) to browse, edit with training-free constellation INSERT, stack patches, and recompile to standard model formats — validated end-to-end on Gemma 3 4B through safetensors; GGUF output planned.**
